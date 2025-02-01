@@ -101,10 +101,10 @@
         </nav>
         <hr class="md:hidden border border-black">
         <!-- banner section -->
-          <section class="px-4 mb-32  md:px-16 py-5">
+          <section class="px-4 mb-32   py-5">
            
-           <div class="">
-            <div class="absolute   md:top-18 z-10">
+           <div class=" md:container mx-auto">
+            <div class="absolute  md:top-18 z-10">
                 <h1 class="text-3xl adlam md:text-5xl md:mt-12">
                     <span class="animate-word" style="animation-delay: 0.2s;">Pamper</span> 
                     <span class="animate-word" style="animation-delay: 0.4s;">Your</span> 
@@ -127,7 +127,7 @@
     <!-- header section is done -->
     
     <!-- own section -->
-    <section class="adlam">
+    <section class="adlam md:container md:mx-auto ">
 
         <div class="rounded-2xl flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-blue-300 to-slate-300 mx-4 md:mx-14 mt-28 my-20">
             <div class="w-full md:w-1/2 flex justify-center order-1 md:order-none">
@@ -148,10 +148,10 @@
     <main>
         <!-- catagory section -->
         <section class="px-4 md:px-16">
-            <h2 class="adlam font-bold text-3xl mb-6">Browse By Categories</h2>
+            <h2 class="adlam font-bold text-3xl mb-6 text-center">Browse By Categories</h2>
         
             <!-- Container -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-9">
+            <div class="md:container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-9 justify-center">
                 <!-- Card -->
                 <div class="bg-[#F9DF8A] rounded-lg text-center w-full max-w-[160px] mx-auto flex flex-col items-center p-4">
                     <div class="bg-slate-50 flex items-center justify-center rounded-full w-24 h-24">
@@ -203,6 +203,7 @@
         
             </div>
         </section>
+        
         
 
        <!-- Trending section 2nd -->
@@ -384,7 +385,9 @@
     <footer class="bg-[#f6e179] relative md:mt-96 mt-[450px]">
         <section class="py-14 px-4 md:py-32 md:container mx-auto">
 
-            <section class="bg-[#FFF9F4] rounded-xl absolute -top-[350px] md:-top-56 mr-8 md:mr-0 md:container mx-auto">
+            <section class="bg-[#FFF9F4] rounded-xl absolute left-1/2 transform -translate-x-1/2 -top-[350px] md:-top-56 min-w-[70vw] max-w-[90%]">
+
+
                 <div class="md:px-16 px-10 py-16 md:flex justify-around items-center space-y-2 md:space-y-0">
                     <img src="images/cute-pet-mid.png" alt="">
                     <div class="space-y-5 text-center md:text-left">
@@ -396,7 +399,8 @@
                 </div>
             </section>
 
-            <section class="pt-[450px] md:pt-52 sora grid md:grid-cols-3 grid-cols-1 space-y-7 md:space-y-0">
+            <section class="pt-[450px] md:pt-52 sora grid md:grid-cols-3 grid-cols-1 space-y-7 md:space-y-0 md:mx-4">
+
                 <div class="space-y-2">
                     <div class="flex items-center gap-2">
                         <img src="images/logo-footer.png" alt="">
@@ -428,6 +432,7 @@
            
         </section>
     </footer>
+    
 
 
 </body>
